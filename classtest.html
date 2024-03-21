@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites of 2023</title>
+    <link rel="stylesheet" href="demostyle.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Set the height of the body to full viewport height */
+           }
+        .header {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        .header span {
+            margin-right: 20px;
+        }
+        .content-container {
+            padding: 20px; /* Add padding to create space around content */
+        }
+        .padding-container {
+            background-color: rgb(255, 239, 213); /* Set padding color */
+            padding: 0px; /* Add padding around content */
+            display: flex; /* Use flexbox for layout */
+            justify-content: space-between; /* Space elements evenly */
+            align-items: center; /* Align items vertically */
+        }
+        .center-content {
+            flex-grow: 1; /* Allow content to grow */
+            text-align: center; /* Center text */
+            margin-left: 40px; /* Keep 40px distance between image and text */
+        }
+        .center-content h1, .center-content h2, .center-content img {
+            margin: 10;
+            padding: 10;
+        }
+        .center-content h1 {
+            color: rebeccapurple;
+            font-size: 28px;
+        }
+        .center-content h2 {
+            font-size: 12px;
+        }
+        .center-content img {
+            width: 400px; /* Adjust image width to desired size */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <span><a href="#">Discover</a></span>
+        <span><a href="#">Extension</a></span>
+        <span><a href="#">Contact</a></span>
+        <span><a href="#">Jahangirnagar University</a></span>
+    </div>
+
+    <div class="content-container">
+        <div class="padding-container">
+            <img src="exampreparation.PNG" alt="">
+            <div class="center-content">
+                <h1>Favorites of 2023</h1>
+                <h2>Discover the standout extensions that made our year</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
